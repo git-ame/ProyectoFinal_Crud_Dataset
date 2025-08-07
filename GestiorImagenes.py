@@ -5,6 +5,8 @@ from typing import List, Dict
 import requests
 from Imagen import Imagen
 
+
+
 class GestorImagenes:
     def __init__(self):
         self.paths = [
@@ -32,7 +34,7 @@ class GestorImagenes:
                 )
         return diccionario
 
-### Menu para poder ejecutar las funciones
+# Menu para poder ejecutar las funciones
     def menu(self):
         while True:
             print("\n-----MENÚ-----")
